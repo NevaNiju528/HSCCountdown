@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HSC 2025 Countdown</title>
+  <link rel="stylesheet" href="countdown.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Countdown to HSC 2025</h1>
+    <div class="countdown">
+      <div class="time-section">
+        <span id="days">00</span>
+        <div class="label">Days</div>
+      </div>
+      <div class="time-section">
+        <span id="hours">00</span>
+        <div class="label">Hours</div>
+      </div>
+      <div class="time-section">
+        <span id="minutes">00</span>
+        <div class="label">Minutes</div>
+      </div>
+      <div class="time-section">
+        <span id="seconds">00</span>
+        <div class="label">Seconds</div>
+      </div>
+    </div>
+
+    <!-- Progress Bar -->
+    <div class="progress-container">
+      <div id="progress-bar"></div>
+    </div>
+
+
+
+    <!-- Pomodoro Timer -->
+    <div class="pomodoro">
+      <h2>Pomodoro Timer</h2>
+      <div class="pomodoro-timer">
+        <span id="pomo-minutes">25</span>:<span id="pomo-seconds">00</span>
+      </div>
+      <button onclick="startPomodoro()">Start</button>
+      <button onclick="resetPomodoro()">Reset</button>
+    </div>
+
+
+
+  <script src="countdown.js"></script>
+</body>
+</html>
